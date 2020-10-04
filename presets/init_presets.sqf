@@ -17,7 +17,7 @@ switch (KP_liberation_preset_opfor) do {
 };
 
 switch (KP_liberation_preset_resistance) do {
-    default  {[] call compileFinal preprocessFileLineNumbers "presets\resistance\rhs_gref.sqf";};
+    default  {[] call compileFinal preprocessFileLineNumbers "presets\resistance\apex.sqf";};
 };
 
 switch (KP_liberation_preset_civilians) do {

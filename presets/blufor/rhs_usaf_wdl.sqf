@@ -46,31 +46,31 @@ KP_liberation_fuel_crate = "CargoNet_01_barrels_F";                     // This 
     IMPORTANT: The last element inside each array must have no comma at the end!
 */
 infantry_units = [
-    ["rhsusf_army_ocp_riflemanl",15,0,0],                               // Rifleman (Light)
-    ["rhsusf_army_ocp_rifleman",20,0,0],                                // Rifleman
-    ["rhsusf_army_ocp_riflemanat",30,0,0],                              // Rifleman (AT)
-    ["rhsusf_army_ocp_grenadier",25,0,0],                               // Grenadier
-    ["rhsusf_army_ocp_autorifleman",25,0,0],                            // Autorifleman
-    ["rhsusf_army_ocp_machinegunner",35,0,0],                           // Heavygunner
-    ["rhsusf_army_ocp_marksman",30,0,0],                                // Marksman
-    ["rhsusf_army_ocp_javelin",50,10,0],                                // AT Specialist
-    ["rhsusf_army_ocp_aa",50,10,0],                                     // AA Specialist
-    ["rhsusf_army_ocp_medic",30,0,0],                                   // Combat Life Saver
-    ["rhsusf_army_ocp_engineer",30,0,0],                                // Engineer
-    ["rhsusf_army_ocp_explosives",30,0,0],                              // Explosives Specialist
+    ["rhsusf_usmc_marpat_wd_rifleman_light",15,0,0],                               // Rifleman (Light)
+    ["rhsusf_usmc_marpat_wd_rifleman",20,0,0],                                // Rifleman
+    ["rhsusf_usmc_marpat_wd_riflemanat",30,0,0],                              // Rifleman (AT)
+    ["rhsusf_usmc_marpat_wd_grenadier",25,0,0],                               // Grenadier
+    ["rhsusf_usmc_marpat_wd_autorifleman",25,0,0],                            // Autorifleman
+    ["rhsusf_usmc_marpat_wd_machinegunner",35,0,0],                           // Heavygunner
+    ["rhsusf_usmc_marpat_wd_marksman",30,0,0],                                // Marksman
+    ["rhsusf_usmc_marpat_wd_javelin",50,10,0],                                // AT Specialist
+    ["rhsusf_usmc_marpat_wd_stinger",50,10,0],                                     // AA Specialist
+    ["rhsusf_navy_marpat_wd_medic",30,0,0],                                   // Combat Life Saver
+    ["rhsusf_usmc_marpat_wd_engineer",30,0,0],                                // Engineer
+    ["rhsusf_usmc_marpat_wd_explosives",30,0,0],                              // Explosives Specialist
     ["rhsusf_usmc_recon_marpat_wd_rifleman",20,0,0],                    // Recon Rifleman
     ["rhsusf_usmc_recon_marpat_wd_rifleman_at",30,0,0],                 // Recon Rifleman (AT)
     ["rhsusf_usmc_recon_marpat_wd_autorifleman",25,0,0],                // Recon Autorifleman
     ["rhsusf_usmc_recon_marpat_wd_machinegunner",35,0,0],               // Recon Machine Gunner
     ["rhsusf_usmc_recon_marpat_wd_marksman",30,0,0],                    // Recon Marksman
-    ["rhsusf_usmc_recon_marpat_wd_sniper_M107",70,5,0],                 // Recon Sniper (M107)
-    ["rhsusf_army_ocp_sniper",70,5,0],                                  // Sniper
-    ["rhsusf_army_ocp_sniper_m107",70,5,0],                             // Sniper (M107)
-    ["rhsusf_army_ocp_sniper_m24sws",70,5,0],                           // Sniper (M24 SWS)
-    ["rhsusf_army_ocp_combatcrewman",10,0,0],                           // Crewman
-    ["rhsusf_army_ocp_rifleman_101st",20,0,0],                          // Para Trooper
-    ["rhsusf_army_ocp_helicrew",10,0,0],                                // Helicopter Crew
-    ["rhsusf_army_ocp_helipilot",10,0,0],                               // Helicopter Pilot
+    ["rhsusf_usmc_marpat_wd_marksman",70,5,0],                 // Recon Sniper (M107)
+    ["rhsusf_usmc_marpat_wd_marksman",70,5,0],                                  // Sniper
+    ["rhsusf_usmc_marpat_wd_marksman",70,5,0],                             // Sniper (M107)
+    ["rhsusf_usmc_marpat_wd_marksman",70,5,0],                           // Sniper (M24 SWS)
+    ["rhsusf_usmc_marpat_wd_combatcrewman",10,0,0],                           // Crewman
+    ["rhsusf_usmc_marpat_wd_rifleman",20,0,0],                          // Para Trooper
+    ["rhsusf_usmc_marpat_wd_helicrew",10,0,0],                                // Helicopter Crew
+    ["rhsusf_usmc_marpat_wd_helipilot",10,0,0],                               // Helicopter Pilot
     ["rhsusf_airforce_jetpilot",10,0,0]                                 // Pilot
 ];
 
