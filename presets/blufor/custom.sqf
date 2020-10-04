@@ -25,10 +25,10 @@ FOB_box_typename = "B_Slingload_01_Cargo_F";                            // This 
 FOB_truck_typename = "B_Truck_01_box_F";                                // This is the FOB as a vehicle.
 Arsenal_typename = "B_supplyCrate_F";                                   // This is the virtual arsenal as portable supply crates.
 Respawn_truck_typename = "B_Truck_01_medical_F";                        // This is the mobile respawn (and medical) truck.
-huron_typename = "B_Heli_Transport_03_unarmed_F";                       // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
+huron_typename = "rhsusf_CH53E_USMC_D";                                 // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
 crewman_classname = "B_crew_F";                                         // This defines the crew for vehicles.
 pilot_classname = "B_Helipilot_F";                                      // This defines the pilot for helicopters.
-KP_liberation_little_bird_classname = "B_Heli_Light_01_F";              // These are the little birds which spawn on the Freedom or at Chimera base.
+KP_liberation_little_bird_classname = "RHS_UH1Y_UNARMED";               // These are the little birds which spawn on the Freedom or at Chimera base.
 KP_liberation_boat_classname = "B_Boat_Transport_01_F";                 // These are the boats which spawn at the stern of the Freedom.
 KP_liberation_truck_classname = "B_Truck_01_transport_F";               // These are the trucks which are used in the logistic convoy system.
 KP_liberation_small_storage_building = "ContainmentArea_02_sand_F";     // A small storage area for resources.
@@ -54,7 +54,8 @@ infantry_units = [
     ["rhsusf_usmc_marpat_wd_rifleman",15,0,0],                          // Rifleman
     ["rhsusf_usmc_marpat_wd_riflemanat",20,0,0],                        // Rifleman (AT)
     ["rhsusf_usmc_marpat_wd_grenadier",25,0,0],                         // Grenadier
-    ["rhsusf_usmc_marpat_wd_autorifleman_m249",20,0,0],                 // Autorifleman
+    ["rhsusf_usmc_marpat_wd_autorifleman",25,0,0],                      // M27 Autorifleman
+    ["rhsusf_usmc_marpat_wd_autorifleman_m249",30,0,0],                 // M249 Autorifleman
     ["rhsusf_usmc_marpat_wd_machinegunner",35,0,0],                     // Heavygunner
     ["rhsusf_usmc_marpat_wd_marksman",30,0,0],                          // Marksman
     ["rhsusf_usmc_marpat_wd_sniper",30,0,0],                            // Sharpshooter
@@ -77,15 +78,15 @@ infantry_units = [
 
 light_vehicles = [
     ["B_Quadbike_01_F",50,0,25],                                        // Quad Bike
-    ["B_LSV_01_unarmed_F",75,0,50],                                     // Prowler
-    ["B_LSV_01_armed_F",75,40,50],                                      // Prowler (HMG)
-    ["B_LSV_01_AT_F",75,60,50],                                         // Prowler (AT)
-    ["B_MRAP_01_F",100,0,50],                                           // Hunter
-    ["B_MRAP_01_hmg_F",100,40,50],                                      // Hunter (HMG)
-    ["B_MRAP_01_gmg_F",100,60,50],                                      // Hunter (GMG)
-    ["I_MRAP_03_F",100,0,50],                                           // Strider
-    ["I_MRAP_03_hmg_F",100,40,50],                                      // Strider (HMG)
-    ["I_MRAP_03_gmg_F",100,60,50],                                      // Strider (GMG)
+    ["rhsusf_m1043_w_s",75,0,50],                                       // Humvee
+    ["rhsusf_m1043_w_s_m2",75,40,50],                                   // Humvee (HMG)
+    ["rhsusf_m1045_w_s",75,60,50],                                      // Humvee (AT)
+    ["rhsusf_m1240a1_usmc_wd",100,0,50],                                // MRAP
+    ["rhsusf_m1240a1_m2_usmc_wd",100,40,50],                            // MRAP (HMG)
+    ["rhsusf_m1240a1_mk19_usmc_wd",100,60,50],                          // MRAP (GMG)
+    ["rhsusf_CGRCAT1A2_usmc_wd",100,0,50],                              // Light MRAP
+    ["rhsusf_M1232_MC_M2_USMC_wd",100,40,50],                           // Heavy MRAP (HMG)
+    ["rhsusf_M1232_MC_MK19_USMC_wd",100,60,50],                         // HEAVY MRAP (GMG)
     ["rhsusf_m1025_w",100,0,50],                                        // M1025A2
     ["rhsusf_m1025_w_m2",100,40,50],                                    // M1025A2 (M2)
     ["rhsusf_m1025_w_mk19",100,60,50],                                  // M1025A2 (Mk19)
@@ -100,8 +101,8 @@ light_vehicles = [
     ["BWA3_Eagle_Fleck",100,0,50],                                      // Eagle IV
     ["BWA3_Eagle_FLW100_Fleck",100,100,50],                             // Eagle IV (FLW 100)
     ["rhsusf_M1230a1_usarmy_wd",120,0,60],                              // M1230A1 (MEDEVAC)
-    ["B_Truck_01_transport_F",125,0,75],                                // HEMTT Transport
-    ["B_Truck_01_covered_F",125,0,75],                                  // HEMTT Transport (Covered)
+    ["rhsusf_M977A4_BKIT_M2_usarmy_wd",125,0,75],                       // HEMTT Transport RHS
+    ["rhsusf_M1083A1P2_B_M2_WD_fmtv_usarmy",125,0,75],                  // HEMTT Transport RHS (Covered)
     ["rhsusf_M1083A1P2_wd_open_fmtv_usarmy",125,0,75],                  // M1083A1P2 Transport
     ["rhsusf_M1083A1P2_wd_fmtv_usarmy",125,0,75],                       // M1083A1P2 Transport (Covered)
     ["rhsusf_M1083A1P2_WD_flatbed_fmtv_usarmy",100,0,50],               // M1083A1P2
@@ -133,25 +134,25 @@ heavy_vehicles = [
     ["I_LT_01_AT_F",300,250,175],                                       // AWC 302 Nyx (AT)
     ["I_LT_01_cannon_F",300,250,175],                                   // AWC 302 Nyx (Cannon)
     ["RHS_M6_wd",300,250,175],                                          // M6A2
-    ["B_MBT_01_cannon_F",400,300,200],                                  // M2A1 Slammer
+    ["rhsusf_m1a1fep_wd",375,300,200],                                  // Basic Abrams
     ["CUP_B_Challenger2_NATO",400,300,200],                             // FV4034 Challenger 2
     ["I_MBT_03_cannon_F",400,300,200],                                  // MBT-52 Kuma
     ["rhsusf_m1a1aim_tuski_wd",400,350,225],                            // M1A1SA (Tusk I)
-    ["B_MBT_01_TUSK_F",500,350,225],                                    // M2A4 Slammer UP
+    ["rhsusf_m1a1hc_wd",325,250,125],                                   // Abrams HC
     ["rhsusf_m1a2sep1tuskiiwd_usarmy",500,400,250],                     // M1A2SEPv1 (Tusk II)
     ["BWA3_Leopard2_Fleck",500,400,250],                                // MBT Leopard 2A6M
     ["B_AFV_Wheeled_01_cannon_F",500,500,250],                          // Rhino MGS
     ["B_AFV_Wheeled_01_up_cannon_F",550,550,250],                       // Rhino MGS UP
     ["B_MBT_01_arty_F",600,1250,300],                                   // M4 Scorcher
     ["rhsusf_m109_usarmy",600,1250,300],                                // M109A6
-    ["B_MBT_01_mlrs_F",800,1750,400]                                    // M5 Sandstorm MLRS
+    ["rhsusf_M142_usmc_WD",800,1750,400]                                // USMC MLRS
 ];
 
 air_vehicles = [
     ["B_UAV_01_F",75,0,25],                                             // AR-2 Darter
     ["B_UAV_06_F",80,0,30],                                             // AL-6 Pelican (Cargo)
     ["B_Heli_Light_01_F",200,0,100],                                    // MH-9 Hummingbird
-    ["B_Heli_Light_01_dynamicLoadout_F",200,100,100],                   // AH-9 Pawnee
+    ["B_Heli_light_01_dynamicLoadout_F",200,0,100],                     // AH-9 Pawnee
     ["RHS_MELB_MH6M",200,0,100],                                        // MH-6M Little Bird
     ["RHS_MELB_AH6M",200,200,100],                                      // AH-6M Pawnee
     ["I_Heli_light_03_unarmed_F",225,0,125],                            // WY-55 Hellcat
@@ -216,6 +217,10 @@ static_vehicles = [
     ["B_Mortar_01_F",80,150,0],                                         // Mk6 Mortar
     ["RHS_M119_WD",100,200,0],                                          // M119A2
     ["B_SAM_System_03_F",250,500,0]                                     // MIM-145 Defender
+    ["RHS_TOW_TriPod_USMC_WD",35,60,0],                                 // TOW Launcher
+    ["RHS_Stinger_AA_pod_USMC_WD",35,60,0],                             // Stinger Launcher
+    ["RHS_MK19_TriPod_USMC_WD",35,60,0]                                 // MK. 19
+
 ];
 
 buildings = [
